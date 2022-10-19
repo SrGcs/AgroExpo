@@ -1,0 +1,463 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Sulphur+Point&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap");
+:root {
+  --first-color: #80BC4A;
+  --second-color: #FFFEFB;
+  --third-color: #000;
+  --color-main: #336E2F;
+  --header-text: "Baloo Chettan 2", cursive;
+  --main-text: "Sulphur Point", sans-serif;
+  --body-text: "KoHo", sans-serif;
+  --title-text: "Averia Libre", cursive;
+}
+
+#header {
+  background-color: var(--first-color);
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 80px;
+}
+#header #SENA {
+  margin-top: 10px;
+  width: 100px;
+  height: auto;
+}
+#header h1 {
+  color: var(--second-color);
+  font: var(--header-text);
+  font-weight: bolder;
+  text-align: start;
+  padding-top: 10px;
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+#header2 {
+  background-color: var(--second-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#header2 #SENAGRO {
+  width: 50px;
+  height: auto;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+#header2 #ubicación {
+  font: var(--header-text);
+  color: var(--third-color);
+  font-weight: bolder;
+  margin-top: 4px;
+  font-size: 11px;
+  color: #000;
+}
+
+.first_title {
+  font: var(--title-text);
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#contenedor_sena {
+  box-shadow: 0 0 2px black;
+}
+
+#footer {
+  background-color: var(--first-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#footer h2 {
+  font: var(--header-text);
+  color: var(--second-color);
+  font-weight: bolder;
+  padding-top: 7px;
+}
+#footer h6 {
+  font: var(--header-text);
+  color: var(--second-color);
+  font-weight: bolder;
+  text-align: start;
+  font-size: 7px;
+}
+
+.items {
+  border-radius: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.items2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imgtop {
+  text-align: center;
+}
+
+.header_items {
+  margin-bottom: 10px;
+}
+
+.header_titulo_items {
+  font: var(--title-text);
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mapagoogle {
+  width: 100%;
+  height: 500px;
+}
+
+.logo-w3c {
+  width: 60px;
+  height: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#w3c-text {
+  font: var(--body-text);
+  text-align: start;
+  font-size: 10px;
+}
+
+.title-about-program {
+  font: var(--title-text);
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.about-program {
+  font: var(--body-text);
+  font-size: 19px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.header-program-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-program {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 13px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+* #header3 {
+  width: auto;
+  font-family: var(--header-text);
+  text-align: center;
+}
+* #header3 ul,
+* #header3 ol {
+  list-style: none;
+  margin-bottom: 10px;
+}
+* #header3 .nav li a {
+  background-color: var(--color-main);
+  color: var(--second-color);
+  text-decoration: none;
+  padding: 8px 15px;
+  display: block;
+  margin-bottom: 1px;
+}
+* #header3 .nav li a:hover {
+  background-color: #434343;
+}
+* #header3 .nav > li {
+  float: left;
+}
+* #header3 .nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+* #header3 .nav li:hover > ul {
+  display: block;
+}
+
+.third-image {
+  margin-left: 115px;
+}
+
+.tres-items {
+  margin: 0px;
+}
+
+.nosotros {
+  padding: 30px;
+  text-align: start;
+  font-size: 20px;
+}
+.nosotros h1 {
+  font: var(--title-text);
+  font-weight: bold;
+  text-align: center;
+}
+.nosotros .text1 {
+  padding-bottom: 50px;
+  font: var(--body-text);
+}
+
+#Ver_mas {
+  margin-left: 183px;
+}
+
+.card {
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card .card-text {
+  text-align: center;
+  font: var(--title-text);
+  font-weight: bold;
+}
+
+#senacard {
+  margin-left: 125px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.icons {
+  margin-left: 20px;
+}
+
+.icons-creators {
+  margin-left: 30px;
+}
+
+.card-creators {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.Ver_mas_program {
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 767px) {
+  h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .facebook {
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+  }
+  h6 {
+    padding-left: 20px;
+  }
+  #SENA {
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+  }
+  #SENAGRO {
+    margin-left: 10px;
+  }
+  .items {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  #Ver_mas {
+    margin-left: 300px;
+  }
+  .Ver_mas_program {
+    margin-left: 145px;
+    margin-bottom: 15px;
+  }
+  #third-image {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .facebook {
+    padding-left: 100px;
+    width: auto;
+    height: auto;
+  }
+  h6 {
+    padding-left: 100px;
+  }
+  #ubicación {
+    padding-left: 100px;
+  }
+  #SENA {
+    margin-left: 70px;
+  }
+  #SENAGRO {
+    margin-left: 85px;
+  }
+  .items {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  #header3 {
+    margin-left: 10px;
+  }
+  #Ver_mas {
+    margin-left: 300px;
+  }
+  #senacard {
+    margin-left: 235px;
+  }
+  .card-creators {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .img-program {
+    margin-top: 100px;
+  }
+  .Ver_mas_program {
+    margin-left: 190px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 950px) {
+  .items {
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .header_items {
+    margin-left: 100px;
+  }
+  #header3 {
+    margin-left: 130px;
+  }
+  #Ver_mas {
+    margin-left: 427px;
+  }
+  .header-program-img {
+    margin-left: 100px;
+  }
+  #senacard {
+    margin-left: 350px;
+  }
+  .img-program {
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  .Ver_mas_program {
+    margin-left: 220px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .items {
+    height: 250px;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+  .header_items {
+    margin-left: 170px;
+  }
+  .header-program-img {
+    margin-left: 200px;
+  }
+  #header3 {
+    margin-left: 230px;
+  }
+  #Ver_mas {
+    margin-left: 517px;
+  }
+  #senacard {
+    margin-left: 460px;
+  }
+  .card-creators {
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+  .img-program {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .Ver_mas_program {
+    margin-left: 260px;
+    margin-bottom: 15px;
+  }
+  .tres-items {
+    margin-bottom: 100px;
+  }
+}
+img {
+  border-radius: 30px;
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+#equinos1 {
+  height: 190px;
+  width: 350px;
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+#agro_industria {
+  height: 190px;
+  width: 350px;
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+#bio_tecnologia {
+  height: 190px;
+  width: 340px;
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+#apicultura {
+  height: 190px;
+  width: 335px;
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+#suelos {
+  height: 190px;
+  width: 335px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#ganaderia {
+  height: 200px;
+  width: 350px;
+}
+
+#maquinas {
+  height: 250px;
+  width: 380px;
+}
+
+#SENA {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#SENAGRO {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}/*# sourceMappingURL=index.css.map */
